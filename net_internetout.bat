@@ -8,8 +8,11 @@ REM ------------------------------
 REM MIT License Info
 REM ------------------------------
 :: Home Internet Recovery Monitor
-:: Copyright (c) 2026 Steven Lizama / Authorship Studios
+:: Copyright (c) 2026 Steven Lizama / Authorship Studios  All rights reserved.
 :: Released under MIT License
+REM Use at your own risk. The author is not responsible for any system issues or data loss.
+echo This tool only monitors network connectivity. No changes to your system.
+pause
 
 REM ------------------------------
 REM Step 1: Wait for router (LAN)
@@ -85,3 +88,4 @@ echo Internet is reachable!
 
 :endscript
 pause
+
