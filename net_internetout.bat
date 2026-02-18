@@ -3,10 +3,6 @@ setlocal enabledelayedexpansion
 echo ===== Home Internet Recovery Monitor =====
 echo.
 
-
-REM ------------------------------
-REM MIT License Info
-REM ------------------------------
 :: Home Internet Recovery Monitor
 :: Copyright (c) 2026 Steven Lizama / Authorship Studios  All rights reserved.
 :: Released under MIT License
@@ -86,5 +82,6 @@ echo Internet is reachable!
 
 :endscript
 pause
+
 
 
