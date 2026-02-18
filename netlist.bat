@@ -1,7 +1,6 @@
 echo ===== Net_Connectivity_Tools_list =====
 echo.
 @echo off
-echo List all net tools in folder...
 
 REM ------------------------------
 REM MIT License Info
@@ -14,3 +13,4 @@ REM ------------------------------
 REM netlist - list all files in current folder
 echo Listing files in %CD%
 dir net* /b
+
