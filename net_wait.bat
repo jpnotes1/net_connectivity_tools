@@ -4,7 +4,7 @@ echo.
 echo Waiting for network...
 
 :: Network Wait Tool
-:: Copyright (c) 2026 Steven Lizama / Authorship Studios
+:: Copyright (c) 2026 Steven Lizama / Authorship Studios All rights reserved.
 :: Released under MIT License
 :: Use at your own risk. The author is not responsible for any system issues or data loss.
 
@@ -19,4 +19,5 @@ if errorlevel 1 (
 )
 
 echo Network is up!
+
 
