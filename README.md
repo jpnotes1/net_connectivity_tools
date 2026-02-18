@@ -6,7 +6,7 @@ net_connectivity_tools
 +-------------------------------------------------+
 
 Copyright (c) 2026 Steven Lizama / Authorship Studios
-Contact: slworkcontact@gmail.com
+Contact: authorshipstudios@gmail.com
 License: MIT License | You may freely distribute these scripts, but please keep this README and attribution intact.
 Version: v1
 Date: 2026-01-12
@@ -23,15 +23,15 @@ These tools help detect when your LAN or internet is down and automate waiting f
 The official archive contains only the following files: 
 
 net_connectivity_tools_v1.zip
-
-  license.txt
-  net_internetout.bat
-  net_lanup.bat
-  net_routerup.bat
-  net_wait.nat
-  netico.ico
-  netlist.bat
-  readme.txt
+	
+  license.txt		MIT License
+  net_internetout.bat	Home Internet Recovery Monitor
+  net_lanup.bat		Lan Check
+  net_routerup.bat	Router Check
+  net_wait.bat		Network Wait Tool
+  netico.ico		Icon
+  netlist.bat		Net Connectivity Tools List
+  readme.txt		Readme
 
 There are no executables (.exe), installers, background services, or hidden components included.
 
@@ -51,16 +51,16 @@ net_internetout.bat
   and displays ISP support numbers if internet is down.et
 
 net_lanup.bat
-  Quick LAN check: prints "LAN is up" or "LAN is down".
+  LAN check: prints "LAN is up" or "LAN is down".
 
 net_routerup.bat
-  Router wait loop: waits until the router is reachable before proceeding.
+  Router Check: waits until the router is reachable before proceeding.
 
 net_wait.bat
-  Internet wait loop: waits until internet is reachable and prints "Network is up".
+  Network Wait tool: waits until internet is reachable and prints "Network is up".
 
 netlist.bat
-  lists all net tools in the folder.
+  Net Connectivity Tools List: lists all net tools in the folder.
 
 +----------------------------+
 |        REQUIREMENTS        |
@@ -79,6 +79,10 @@ netlist.bat
 
 Examples:
 
+
+Full internet recovery monitor with ISP alert:
+> net_internetout.bat
+
 Check LAN status quickly:
 > net_lanup.bat
 
@@ -88,8 +92,9 @@ Wait until your router is online:
 Wait until internet connectivity is restored:
 > net_wait.bat
 
-Full internet recovery monitor with ISP alert:
-> net_internetout.bat
+List all available net tools in the folder:
+> net_wait.bat
+
 
 +----------------------------+
 |           NOTES            |
@@ -97,4 +102,6 @@ Full internet recovery monitor with ISP alert:
 - net_internetout.bat is the most comprehensive tool; the others can be used independently for quick checks or automation.
 - Modify ISP numbers in net_internetout.bat to match your providers.
 - Scripts are lightweight and do not require installation.
+
+
 
