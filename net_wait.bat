@@ -3,12 +3,10 @@ echo ===== Network Wait =====
 echo.
 echo Waiting for network...
 
-REM ------------------------------
-REM MIT License Info
-REM ------------------------------
 :: Network Wait Tool
 :: Copyright (c) 2026 Steven Lizama / Authorship Studios
 :: Released under MIT License
+:: Use at your own risk. The author is not responsible for any system issues or data loss.
 
 :loop
 REM Fast HTTP check to Google (3-second timeout)
@@ -21,3 +19,4 @@ if errorlevel 1 (
 )
 
 echo Network is up!
+
