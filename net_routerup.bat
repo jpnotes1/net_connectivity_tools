@@ -9,8 +9,8 @@ REM ------------------------------
 REM MIT License Info
 REM ------------------------------
 :: Router Check
-:: Copyright (c) 2026 Steven Lizama / Authorship Studios
-:: Released under MIT License
+:: Copyright (c) 2026 Steven Lizama / Authorship Studios All rights reserved.
+:: Use at your own risk. The author is not responsible for any system issues or data loss.
 
 set "gateway="
 
@@ -38,3 +38,4 @@ if %errorlevel%==0 (
 )
 
 pause
+
