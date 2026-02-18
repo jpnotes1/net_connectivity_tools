@@ -5,10 +5,9 @@ net_connectivity_tools
 |           NET_CONNECTIVITY_TOOLS                |
 +-------------------------------------------------+
 
-Author: Steven Lizama
-Company: slworkcontact@gmail.com
-License: MIT License
-You may freely distribute these scripts, but please keep this README and attribution intact.
+Copyright (c) 2026 Steven Lizama / Authorship Studios
+Contact: slworkcontact@gmail.com
+License: MIT License | You may freely distribute these scripts, but please keep this README and attribution intact.
 Version: v1
 Date: 2026-01-12
 
@@ -98,6 +97,4 @@ Full internet recovery monitor with ISP alert:
 - net_internetout.bat is the most comprehensive tool; the others can be used independently for quick checks or automation.
 - Modify ISP numbers in net_internetout.bat to match your providers.
 - Scripts are lightweight and do not require installation.
-
-
 
