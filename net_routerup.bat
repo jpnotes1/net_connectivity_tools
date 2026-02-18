@@ -5,9 +5,6 @@ setlocal enabledelayedexpansion
 
 echo Detecting default gateway...
 
-REM ------------------------------
-REM MIT License Info
-REM ------------------------------
 :: Router Check
 :: Copyright (c) 2026 Steven Lizama / Authorship Studios All rights reserved.
 :: Use at your own risk. The author is not responsible for any system issues or data loss.
@@ -38,4 +35,5 @@ if %errorlevel%==0 (
 )
 
 pause
+
 
